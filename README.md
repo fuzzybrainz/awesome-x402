@@ -240,6 +240,7 @@ Full working examples and templates.
 - [Weather API](https://weather.hugen.tokyo) - Global weather data for AI agents. Real-time conditions and 7-day forecasts for any city worldwide. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-weather-api)
 - [Scout MCP](https://scout.hugen.tokyo) - Multi-source intelligence API for AI agents. Search across Hacker News, GitHub, npm, PyPI, Product Hunt, X/Twitter, and x402 Bazaar in one call. 10 endpoints from $0.001 USDC on Base. [Source](https://github.com/bartonguestier1725-collab/scout-mcp)
 - [Mailcheck API](https://mailcheck.hugen.tokyo) - Email validation for AI agents. Syntax, MX records, disposable domain detection, free provider check, role-based address detection, and typo suggestion. $0.001 USDC per call on Base. [Source](https://github.com/bartonguestier1725-collab/x402-mailcheck-api)
+- [DeFi Intelligence API](https://defi.hugen.tokyo) - Unified DeFi security, bridging, and analytics for AI agents. 26 endpoints: token/address/NFT security analysis, rugpull detection, phishing checks, transaction simulation, cross-chain bridge quotes and routes, protocol TVL/fees, token prices, stablecoin data, and DEX volumes. Integrates GoPlus Security + LI.FI + DeFi Llama. $0.005–$0.01 USDC per call on Base.
 - [MoonMaker API](https://api.moonmaker.cc) - AI-native crypto data API with x402 pay-per-call. 11 endpoints: signals, market context, DeFi regime, institutions, ETF flows, DeFi yields, DEX alpha. $0.02–$0.10/call USDC on Base. No signup. [llms.txt](https://api.moonmaker.cc/llms.txt)
 - [x402 AI API — zeroreader](https://api.zeroreader.com) - 29 Cloudflare Workers AI models (LLM, Embeddings, Image Generation, Audio, Translation) via x402 micropayments. $0.001–$0.015 per request, USDC on Base. Supports streaming, batch processing, OpenAI-compatible format. [llms.txt](https://api.zeroreader.com/llms.txt) | [OpenAPI](https://api.zeroreader.com/openapi.json)
 - REST API with Auth Pricing - SIWE + dynamic pricing.
@@ -503,6 +504,7 @@ Projects building with or extending x402.
 - [Chainlink VRF](https://chain.link) - Random NFT minting with payment demo.
 - [Signet](https://signet.sebayaki.com) - Onchain spotlight ads on Base — AI agents pay USDC via x402 to post ads. First mainnet x402 transaction on Base. [CLI](https://github.com/h1-hunt/signet-client)
 - **[x402-api](https://x402-api.fly.dev)** — Pay-per-call DeFi & crypto data API. 8 endpoints: price feeds, whale tracking, gas tracker, DEX quotes, token scanner, yield scanner, funding rates, wallet profiler. USDC micropayments on Base. ERC-8004 Agent #18763.
+- [DeFi Intelligence API](https://defi.hugen.tokyo) — Unified DeFi security, bridging, and analytics API for AI agents. 26 endpoints across three backends: GoPlus Security (token/address/NFT security, rugpull detection, phishing, tx simulation), LI.FI (cross-chain bridge quotes, routes, gas prices), and DeFi Llama (protocol TVL, fees, token prices, stablecoin data, DEX volumes). $0.005–$0.01 USDC on Base. Discovery: [/.well-known/x402](https://defi.hugen.tokyo/.well-known/x402)
 
 ### Developer Tools
 
