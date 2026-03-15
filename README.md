@@ -319,6 +319,12 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 
 Enable AI agents to make autonomous payments.
 
+### GPU Inference APIs
+
+x402-native GPU inference APIs that let agents pay autonomously for compute.
+
+- [GPU-Bridge](https://gpubridge.xyz) - 30-service GPU inference API with native x402 payments (USDC on Base L2). LLM, image generation, embeddings, STT, TTS, PDF processing — all in one API. Agents pay per call with no human intervention. /usr/bin/bash.00002/embedding, /usr/bin/bash.001/LLM call. ([Docs](https://docs.gpubridge.xyz)) ([GitHub](https://github.com/fjnunezp75/gpu-bridge))
+
 ### Model Context Protocol (MCP)
 
 - Anthropic MCP Integration - Official Claude integration.
